@@ -3,24 +3,10 @@
 <head>
   <meta charset="utf-8">
   <meta name="description"
-        content="">
-  <meta name="keywords" content="URL">
+        content="URLab: Unreal Robotics Lab — MuJoCo physics simulation plugin for Unreal Engine 5.">
+  <meta name="keywords" content="URLab, Unreal Engine, MuJoCo, robotics, simulation, sim-to-real">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>URL: Unreal Robotics Lab</title>
-
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-PYVRSFMDRL"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-
-    function gtag() {
-      dataLayer.push(arguments);
-    }
-
-    gtag('js', new Date());
-
-    gtag('config', 'G-PYVRSFMDRL');
-  </script>
+  <title>URLab: Unreal Robotics Lab</title>
 
   <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
         rel="stylesheet">
@@ -32,7 +18,6 @@
   <link rel="stylesheet"
         href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
   <link rel="stylesheet" href="./static/css/index.css">
- 
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script defer src="./static/js/fontawesome.all.min.js"></script>
@@ -42,82 +27,46 @@
 </head>
 <body>
 
-<nav class="navbar" role="navigation" aria-label="main navigation">
-  <div class="navbar-brand">
-    <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
-      <span aria-hidden="true"></span>
-      <span aria-hidden="true"></span>
-      <span aria-hidden="true"></span>
-    </a>
-  </div>
-  <div class="navbar-menu">
-    <div class="navbar-start" style="flex-grow: 1; justify-content: center;">
-      <a class="navbar-item" href="https://keunhong.com">
-      <span class="icon">
-          <i class="fas fa-home"></i>
-      </span>
-      </a>
-
-      <div class="navbar-item has-dropdown is-hoverable">
-        <a class="navbar-link">
-          More Research
-        </a>
-        <div class="navbar-dropdown">
-
-        </div>
-      </div>
-    </div>
-
-  </div>
-</nav>
-
-
 <section class="hero">
   <div class="hero-body">
     <div class="container is-max-desktop">
       <div class="columns is-centered">
         <div class="column has-text-centered">
-          <h1 class="title is-1 publication-title">URL: Unreal Robotics Lab</h1>
+          <h1 class="title is-1 publication-title">URLab: Unreal Robotics Lab</h1>
           <div class="is-size-5 publication-authors">
             <span class="author-block">
-              <a href="">Author 1*</a><sup>1</sup>,</span>
-              <a href="">Author 2*</a><sup>1</sup>,</span>
-              <a href="">Author 3</a><sup>1</sup>,</span>
-              <a href="">Author 4</a><sup>1</sup>,</span>
+              <a href="https://scholar.google.com/citations?hl=en&user=KaiXdo0AAAAJ">Jonathan Embley-Riches</a><sup>1</sup>,</span>
+            <span class="author-block">
+              <a href="">Jianwei Liu</a><sup>1</sup>,</span>
+            <span class="author-block">
+              <a href="">Simon Julier</a><sup>1</sup>,</span>
+            <span class="author-block">
+              <a href="">Dimitrios Kanoulas</a><sup>1</sup></span>
           </div>
 
           <div class="is-size-5 publication-authors">
-            <span class="author-block">
-		    <sup>1</sup>Hidden</span>
-		    <sup>1</sup>Hidden</span>
-		    <sup>1</sup>Hidden</span>
-		    <sup>1</sup>Hidden</span>
+            <span class="author-block"><sup>1</sup>University College London (UCL)</span>
+          </div>
+
+          <div class="is-size-6 publication-authors" style="margin-top: 0.5rem;">
+            <span class="author-block"><em>IEEE International Conference on Robotics and Automation (ICRA) 2026</em></span>
           </div>
 
           <div class="column has-text-centered">
             <div class="publication-links">
-              <!-- PDF Link.
+              <!-- arXiv Link -->
               <span class="link-block">
-                <a href=""
-                   class="external-link button is-normal is-rounded is-dark">
-                  <span class="icon">
-                      <i class="fas fa-file-pdf"></i>
-                  </span>
-                  <span>Paper</span>
-                </a>
-              </span>-->
-              <span class="link-block">
-                <a href=""
+                <a href="https://arxiv.org/abs/2504.14135"
                    class="external-link button is-normal is-rounded is-dark">
                   <span class="icon">
                       <i class="ai ai-arxiv"></i>
                   </span>
                   <span>arXiv</span>
                 </a>
-              </span> 
-              <!-- Video Link. -->
+              </span>
+              <!-- Video Link -->
               <span class="link-block">
-                <a href=""
+                <a href="#video"
                    class="external-link button is-normal is-rounded is-dark">
                   <span class="icon">
                       <i class="fab fa-youtube"></i>
@@ -125,27 +74,27 @@
                   <span>Video</span>
                 </a>
               </span>
-              <!-- Code Link. -->
+              <!-- Code Link -->
               <span class="link-block">
-                <a href=""
+                <a href="https://github.com/URLab-Sim/UnrealRoboticsLab"
                    class="external-link button is-normal is-rounded is-dark">
                   <span class="icon">
                       <i class="fab fa-github"></i>
                   </span>
                   <span>Code</span>
-                  </a>
+                </a>
               </span>
-              <!-- Dataset Link.
+              <!-- Docs Link -->
               <span class="link-block">
-                <a href=""
+                <a href="https://urlab-sim.github.io/UnrealRoboticsLab/"
                    class="external-link button is-normal is-rounded is-dark">
                   <span class="icon">
-                      <i class="far fa-images"></i>
+                      <i class="fas fa-book"></i>
                   </span>
-                  <span>Data</span> -->
-                  </a>
+                  <span>Docs</span>
+                </a>
+              </span>
             </div>
-
           </div>
         </div>
       </div>
@@ -156,17 +105,29 @@
 <section class="hero teaser">
   <div class="container is-max-desktop">
     <div class="hero-body">
-      <h2 class="subtitle has-text-centered">
-        <span class="dnerf">URL</span> *Under Submission* Code Released upon acceptance.      </h2>
-    </div>
-  </div>
-</section>
-
-
-<section class="hero is-light is-small">
-  <div class="hero-body">
-    <div class="container">
-      <div id="results-carousel" class="carousel results-carousel">
+      <div class="notification is-info is-light" style="border: 2px solid #3e8ed0; border-radius: 8px; padding: 1.5rem 2rem;">
+        <div class="columns is-vcentered">
+          <div class="column">
+            <p class="is-size-4 has-text-weight-bold" style="margin-bottom: 0.5rem;">
+              <i class="fab fa-github"></i>&nbsp; URLab is open source
+            </p>
+            <p>
+              Get the plugin, read the docs, and start simulating.
+            </p>
+          </div>
+          <div class="column is-narrow">
+            <a href="https://github.com/URLab-Sim/UnrealRoboticsLab"
+               class="button is-link is-medium" style="margin-right: 0.5rem;">
+              <span class="icon"><i class="fab fa-github"></i></span>
+              <span>GitHub</span>
+            </a>
+            <a href="https://urlab-sim.github.io/UnrealRoboticsLab/"
+               class="button is-info is-medium is-outlined">
+              <span class="icon"><i class="fas fa-book"></i></span>
+              <span>Docs</span>
+            </a>
+          </div>
+        </div>
       </div>
     </div>
   </div>
@@ -181,11 +142,7 @@
         <h2 class="title is-3">Abstract</h2>
         <div class="content has-text-justified">
           <p>
-High-fidelity simulation is essential for robotics research, enabling safe and efficient testing of perception, control, and navigation algorithms. However, achieving both photorealistic rendering and accurate physics modeling remains a challenge. This paper presents a novel simulation framework, the Unreal Robotics Lab (URL), that integrates the advanced rendering capabilities of the Unreal Engine with MuJoCo’s high-precision physics simulation. Our approach enables realistic robotic perception while maintaining accurate physical interactions, facilitating benchmarking and dataset generation for vision-based robotics applications. The system supports complex environmental effects, such as smoke, fire, and water dynamics, which are critical to evaluating robotic performance under adverse conditions. We benchmark visual navigation and SLAM methods within our framework, demonstrating its utility for testing real-world robustness in controlled yet diverse scenarios. By bridging the gap between physics accuracy and photorealistic rendering, our framework provides a powerful tool for advancing robotics research and sim-to-real transfer.
-          </p>
-          <p>
-          </p>
-          <p>
+High-fidelity simulation is essential for robotics research, enabling safe and efficient testing of perception, control, and navigation algorithms. However, achieving both photorealistic rendering and accurate physics modeling remains a challenge. This paper presents a novel simulation framework, the Unreal Robotics Lab (URL), that integrates the advanced rendering capabilities of the Unreal Engine with MuJoCo's high-precision physics simulation. Our approach enables realistic robotic perception while maintaining accurate physical interactions, facilitating benchmarking and dataset generation for vision-based robotics applications. The system supports complex environmental effects, such as smoke, fire, and water dynamics, which are critical to evaluating robotic performance under adverse conditions. We benchmark visual navigation and SLAM methods within our framework, demonstrating its utility for testing real-world robustness in controlled yet diverse scenarios. By bridging the gap between physics accuracy and photorealistic rendering, our framework provides a powerful tool for advancing robotics research and sim-to-real transfer.
           </p>
         </div>
       </div>
@@ -193,7 +150,7 @@ High-fidelity simulation is essential for robotics research, enabling safe and e
     <!--/ Abstract. -->
 
     <!-- Paper video. -->
-<div class="columns is-centered has-text-centered">
+<div class="columns is-centered has-text-centered" id="video">
   <div class="column is-four-fifths">
     <h2 class="title is-3">Video</h2>
     <div class="publication-video">
@@ -209,19 +166,16 @@ High-fidelity simulation is essential for robotics research, enabling safe and e
 </section>
 
 
-<section class="section">
-  <div class="container is-max-desktop">
-
-    <div class="columns is-centered">
-
-  </div>
-</section>
-
-
 <section class="section" id="BibTeX">
   <div class="container is-max-desktop content">
     <h2 class="title">BibTeX</h2>
-    <pre><code>biblink here</code></pre>
+    <pre><code>@inproceedings{embleyriches2026urlab,
+  title     = {Unreal Robotics Lab: A High-Fidelity Robotics Simulator with Advanced Physics and Rendering},
+  author    = {Embley-Riches, Jonathan and Liu, Jianwei and Julier, Simon and Kanoulas, Dimitrios},
+  booktitle = {IEEE International Conference on Robotics and Automation (ICRA)},
+  year      = {2026},
+  url       = {https://arxiv.org/abs/2504.14135}
+}</code></pre>
   </div>
 </section>
 
@@ -229,11 +183,10 @@ High-fidelity simulation is essential for robotics research, enabling safe and e
 <footer class="footer">
   <div class="container">
     <div class="content has-text-centered">
-      <a class="icon-link"
-         href="./static/videos/url_paper.pdf">
+      <a class="icon-link" href="https://arxiv.org/abs/2504.14135">
         <i class="fas fa-file-pdf"></i>
       </a>
-      <a class="icon-link" href="https://github.com/keunhong" class="external-link" disabled>
+      <a class="icon-link" href="https://github.com/URLab-Sim/UnrealRoboticsLab" class="external-link">
         <i class="fab fa-github"></i>
       </a>
     </div>
@@ -246,11 +199,7 @@ High-fidelity simulation is essential for robotics research, enabling safe and e
             Commons Attribution-ShareAlike 4.0 International License</a>.
           </p>
           <p>
-            This means you are free to borrow the <a
-              href="https://github.com/nerfies/nerfies.github.io">source code</a> of this website,
-            we just ask that you link back to this page in the footer.
-            Please remember to remove the analytics code included in the header of the website which
-            you do not want on your website.
+            Website template from <a href="https://github.com/nerfies/nerfies.github.io">Nerfies</a>.
           </p>
         </div>
       </div>
